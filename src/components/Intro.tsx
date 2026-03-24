@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Dice } from "./Dice";
 
-export function Intro({ onComplete }: { onComplete: (result: 'death' | 'icecream') => void }) {
+export function Intro({ onComplete }: { key?: string; onComplete: (result: 'death' | 'icecream') => void }) {
   return (
     <motion.div
       initial={{ opacity: 1 }}
