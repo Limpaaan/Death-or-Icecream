@@ -3,19 +3,19 @@ import { useTheme } from "../ThemeContext";
 import { cn } from "../utils";
 
 const works = [
-  { id: 1, title: "Outcome #042", type: "death", image: "/d1.png" },
-  { id: 2, title: "Outcome #043", type: "icecream", image: "/I1.png" },
-  { id: 3, title: "Outcome #044", type: "death", image: "/d2.png" },
-  { id: 4, title: "Outcome #045", type: "icecream", image: "/i2.png" },
-  { id: 5, title: "Outcome #046", type: "death", image: "/d3.png" },
-  { id: 6, title: "Outcome #047", type: "icecream", image: "/i3.png" },
-  { id: 7, title: "Outcome #048", type: "death", image: "/d4.png" },
-  { id: 8, title: "Outcome #049", type: "icecream", image: "/i4.png" },
-  { id: 9, title: "Outcome #050", type: "death", image: "/d5.png" },
-  { id: 10, title: "Outcome #051", type: "icecream", image: "/i5.png" },
-  { id: 11, title: "Outcome #052", type: "death", image: "/d6.png" },
-  { id: 12, title: "Outcome #053", type: "icecream", image: "/i6.png" },
-  { id: 13, title: "Outcome #054", type: "death", image: "/d7.png" },
+  { id: 1, title: "Outcome #042", type: "death", image: "d1.png" },
+  { id: 2, title: "Outcome #043", type: "icecream", image: "I1.png" },
+  { id: 3, title: "Outcome #044", type: "death", image: "d2.png" },
+  { id: 4, title: "Outcome #045", type: "icecream", image: "i2.png" },
+  { id: 5, title: "Outcome #046", type: "death", image: "d3.png" },
+  { id: 6, title: "Outcome #047", type: "icecream", image: "i3.png" },
+  { id: 7, title: "Outcome #048", type: "death", image: "d4.png" },
+  { id: 8, title: "Outcome #049", type: "icecream", image: "i4.png" },
+  { id: 9, title: "Outcome #050", type: "death", image: "d5.png" },
+  { id: 10, title: "Outcome #051", type: "icecream", image: "i5.png" },
+  { id: 11, title: "Outcome #052", type: "death", image: "d6.png" },
+  { id: 12, title: "Outcome #053", type: "icecream", image: "i6.png" },
+  { id: 13, title: "Outcome #054", type: "death", image: "d7.png" },
 ];
 
 export function GalleryPreview() {
